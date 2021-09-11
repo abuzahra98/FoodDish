@@ -1,7 +1,7 @@
 {
   "name": "foodish",
   "version": "1.0.0",
-  "description": "**Group Members :** 1. Dawood basher 2. Anwar Shraideh 3. Emran Aloul 4. Sewar Ahmad 5. Yasmeen Al-khateeb",
+  "description": "Dawood basher",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
