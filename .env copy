@@ -1,0 +1,4 @@
+PORT=3000
+APIKEY=5b409403415f4b848dbe41c643eaaddb
+api=6a124e316ba343a4809e73cf2848126f
+DATABASE_URL=postgres://localhost:5432/test

@@ -1,0 +1,327 @@
+*
+{
+  font-family: 'Domine', serif;
+}
+
+
+.heading
+{
+  margin-top: 50px;
+  font-weight: 800;
+  font-size: xxx-large;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+   background: url("https://t4.ftcdn.net/jpg/02/83/65/59/360_F_283655984_0IwBzWwvqexJyjINgZVip30apVv3X69O.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  
+}
+
+.Profilecard
+{
+    
+  width: 290px;
+  height: 330px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+position: absolute;
+  top: 70%;
+  left: 25%; 
+  transform: translate(-50%, -50%);
+  transition: 0.4s all;
+}
+
+.Profilecard img
+{
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.Profilecard h2
+{
+ color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.Profilecard p
+{
+ color: rgb(0, 0, 0);
+  text-align:center;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.Profilecard button
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+ color: rgb(255, 255, 255);
+  transition: 0.4s all;
+  cursor: pointer;
+  
+}
+
+/* 1 */
+
+.Profilecard1
+{
+  width: 290px;
+  height: 330px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+ position: absolute;
+  top: 70%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  transition: 0.4s all;
+}
+
+.Profilecard1 img
+{
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.Profilecard1 h2
+{
+ color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.Profilecard1 p
+{
+ color: rgb(0, 0, 0);
+  text-align:center;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.Profilecard1 button
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+/* 2 */
+
+.Profilecard2
+{
+  width: 290px;
+  height: 330px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+ position: absolute;
+  top: 70%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  transition: 0.4s all;
+}
+
+.Profilecard2 img
+{
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.Profilecard2 h2
+{
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.Profilecard2 p
+{
+  color: rgb(0, 0, 0);
+  text-align:center;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.Profilecard2 button
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+/* 3 */
+
+.Profilecard3
+{
+  width: 290px;
+  height: 330px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+ position: absolute;
+  top: 130%;
+  left: 40%; 
+  transform: translate(-50%, -50%);
+  transition: 0.4s all;
+}
+
+.Profilecard3 img
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.Profilecard3 h2
+{
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.Profilecard3 p
+{
+  color: rgb(0, 0, 0);
+  text-align:center;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.Profilecard3 button
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+/* 4 */
+
+.Profilecard4
+{
+  width: 290px;
+  height: 330px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+ position: absolute;
+  top: 130%;
+  left: 65%; 
+  transform: translate(-50%, -50%);
+  transition: 0.4s all;
+}
+
+.Profilecard4 img
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.Profilecard4 h2
+{
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.Profilecard4 p
+{
+  color: rgb(0, 0, 0);
+  text-align:center;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.Profilecard4 button
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+#footer{
+  position: relative;
+  bottom: -2vh;
+}
+

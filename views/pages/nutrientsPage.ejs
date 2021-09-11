@@ -1,0 +1,56 @@
+<%- include('./layout/header')  %> 
+<!-- <img src="https://image.freepik.com/free-photo/high-angle-view-various-types-uncooked-pasta-wooden-desk_23-2148195030.jpg" alt="" srcset=""> -->
+<div class="parent">
+  <link rel="stylesheet" href="/styles/nutrients.css">
+  
+<div class="form">
+  <h2 class="formTitle">Recipe Box</h2>
+  <img src="/images/test2.jpg" alt="" style="width: 100%; height : 100vh;z-index: -22;">
+  <form action="/nutrition" method="post" class="nutriForm" >
+      <div class="formContent">
+      <select name="searchBy" id="searchBy" class="input">
+            <option value="maxCarbs">maxCarbs</option>
+            <option value="minCarbs">minCarbs</option>
+            <option value="minProtein">minProtein</option>
+            <option value="maxProtein">maxProtein</option>
+            <option value="maxCalories">maxCalories</option>
+            <option value="maxFat">maxFat</option>
+        </select>
+      </div>
+      <div>
+        <input type="number"  name="value" placeholder="Enter value" id="value" >
+      </div>
+        <button type="submit">Search</button>
+    </form>
+    </div>
+  
+
+    <div class="center">
+        <% nutrients.forEach(element=>{ %>
+        <div class="property-card">
+          <a href="#">
+            <img class="property-image" src="<%= element.image%> ">
+             
+            </img></a>
+          <div class="property-description">
+            <h5> <%= element.title %></h5>
+            <p>calories : <%= element.calories %></p>
+            <p>protein : <%= element.protein %></p>
+            <p>fat : <%= element.fat %></p>
+            <p class="phh">  carbs : <%= element.carbs %></p>
+          </div>
+          <a href="#">
+            <div class="property-social-icons">
+            </div>
+          </a>
+        </div>
+        <% }) %>
+      </div>
+
+
+
+</div>
+<%- include('./layout/footer')  %> 
+</body>
+
+</html>

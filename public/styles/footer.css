@@ -1,0 +1,63 @@
+footer
+{
+    /* font-family: 'Domine', serif; */
+    font-size: large;
+    /* line-height: 2; */
+    /* margin-top: 25px; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #0A7029;
+    /* border-radius: 15px 15px 0 0; */
+    align-items: center;
+    height: 90px;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+
+    color: white;
+
+}
+
+.footerli
+{
+
+    display: flex;
+    letter-spacing: 10px;
+    font-size: x-large;
+    
+}
+
+
+
+div p {
+    
+    color:white
+   
+}
+.imglogo img{
+    width: 140px;
+    height: 60px;
+   
+}
+
+#link1:hover
+{
+    background-color: blueviolet;
+}
+
+#link2:hover
+{
+    background-color:rgb(0, 119, 255);
+}
+
+#link3:hover
+{
+    background-color: wheat;
+}
+
+#link4:hover
+{
+    background-color:#337ab7;
+}
+
