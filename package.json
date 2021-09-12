@@ -29,6 +29,6 @@
     "superagent": "^6.1.0",
     "nodemon": "^2.0.12"
   },
-  "keywords": [],
-  "devDependencies": {}
+  "keywords": []
+  
 }
